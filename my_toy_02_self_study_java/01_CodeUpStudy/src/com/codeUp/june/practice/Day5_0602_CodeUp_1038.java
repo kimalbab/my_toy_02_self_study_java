@@ -6,27 +6,23 @@ public class Day5_0602_CodeUp_1038 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		// ê·¸ê²ƒë„ ë³´ì™„
+		System.out.println(sc.nextLong() + sc.nextLong());
+		// int ìë£Œí˜•ì—ì„œëŠ” ë„ì–´ì“°ê¸°ì‹œ ìë™ìœ¼ë¡œ ìˆ˜ë¡œ ì¸ì‹í•˜ëŠ”ê°€? > yes
 		
-		// Á¤¼ö½Ä ÀÔ·Â¹Ş±â
+		/* ì²˜ìŒ í’€ì´ > í‹€ë ¸ë˜ ì´ìœ  : int í˜•ì— ë‹´ì•˜ëŠ”ë° long í˜•ì— ë‹´ì•˜ì–´ì•¼ í–ˆë‹¤.
 		String calcul = sc.nextLine();
 		String[] calculArr = calcul.split("\\s");
 		long [] numCalculArr = new long [calculArr.length];
 		
-		// ¼ıÀÚ·Î º¯È¯ÇÏ±â
+		
 		for(int i = 0; i<calculArr.length; i++) {
 		numCalculArr[i] = Integer.parseInt(calculArr[i]);
 		}
 		
 		System.out.println(numCalculArr[0] + numCalculArr[1]);
-
+*/
 	}
 
 }
 
-/* ÀÎÆ® Çü ¾È¿¡ ³Ö¾îÁà¾ßÇÔ
-- ÃÑ 7°³ Áß 6¹øÂ° Å×½ºÆ® ÄÉÀÌ½º - 
-Á¡¼ö = 71 / 100
-
-ÀÔ·Â:
-1073741824 1073741824
-*/
