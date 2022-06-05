@@ -58,7 +58,7 @@ public class MemberMenu {
 		String userName = sc.nextLine();
 
 		System.out.print("성별 : ");
-		String gender = sc.nextLine();
+		String gender = sc.nextLine().toUpperCase();
 		
 		System.out.print("나이 : ");
 		String age = sc.nextLine();
