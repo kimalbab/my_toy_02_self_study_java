@@ -1,4 +1,4 @@
-package com.codeUp.javaStudy.practice.may;
+package com.codeUp.may.practice;
 import java.util.Scanner;
 
 public class Day2_0530_CodeUp_1024 {
