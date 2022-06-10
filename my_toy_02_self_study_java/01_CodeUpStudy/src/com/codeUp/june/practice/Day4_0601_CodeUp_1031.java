@@ -8,7 +8,6 @@ public class Day4_0601_CodeUp_1031 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		//수 입력받기
 		int num = sc.nextInt();
 		String ocNum = Integer.toOctalString(num);
 		System.out.println(ocNum);
